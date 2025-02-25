@@ -16,7 +16,16 @@ public class Car {
         this.stav = stav;
     }
 
+    public void printInfo(){
+        System.out.println("Rok Vyroby: " +rokVyroby+ "Pocet Km: " +pocetKm+ "Barva: " +barva+ "Stav: " + stav);
+    }
+
+    public String getRokVyroby() {return rokVyroby;}
+    public int getPocetKm() {return pocetKm;}
+    public String getBarva() {return barva;}
+    public String getStav() {return stav;}
 
 
 	
 }
+
