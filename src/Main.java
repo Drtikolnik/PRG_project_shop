@@ -14,7 +14,7 @@ public class Main {
         String vstup ="";
 
         while(!vstup.equals("0")) {
-            System.out.println("Vitejde v obchode. Pro vstup do autosalonu stisknete 1, pro vstup do kina 1, pro vstup do elektro obchodu 3, pro vstup do knihovny 4 a pro vstup do video pujcovny 5.");
+            System.out.println("Vitejte v obchode. Pro vstup do autosalonu stisknete 1, pro vstup do knihkupectvi 2, pro vstup do kina 3, pro vstup do elektro obchodu 4, pro vstup do knihovny 5 a pro vstup do video pujcovny 6.");
             System.out.println("Pro ukonceni programu stisknete 0.");
             vstup = sc.nextLine();
 
