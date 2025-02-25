@@ -1,6 +1,8 @@
 package autosaloon;
+import java.util.Scanner;
 
 public class Car {
+    static Scanner sc = new Scanner(System.in);
 
     private String rokVyroby;
     private int pocetKm;

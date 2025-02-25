@@ -5,14 +5,27 @@ public class CarDatabase {
     String owner;
     Car[] cars;
 
+    public CarDatabase(String owner) {
+        this.owner = owner;
+    }
 
     /**
      * Metoda se zepta uzivatele na informace k pozadovanemu poctu aut. A ty prida do pole aut.
      * @param count - pozadovany pocet aut
      */
+
+
+
     public void addCars(int count) {
-        //  cars = new ....
+        cars = new Car[count];
         for (int i=0; i<count; count++){
+            System.out.println("Jaký je rok výroby auta?");
+
+            System.out.println("Jaký je počet najetých km?");
+
+            System.out.println("Jaká je brava auta?");
+
+            System.out.println("Jaký je stav auta?");
             //nacti od uzivatele rok vyroby, pocet najetych km, barvu a stav auta
             //vytvor instanci auta - nutno upravit i tridu Car, chceme instanci nastavit atributy na nactene hodnoty od uzivatele
             //pridej auto do pole aut
