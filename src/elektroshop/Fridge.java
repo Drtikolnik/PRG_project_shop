@@ -33,7 +33,6 @@ public class Fridge {
             case E -> System.out.print("high");
             case F -> System.out.print("very high");
             case G -> System.out.print("extremely high");
-
         }
     }
 

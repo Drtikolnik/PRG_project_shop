@@ -42,7 +42,9 @@ public class Items {
      */
     public void printInfo(){
         System.out.println("-----INFO O LEDNICKACH-----");
-        Fridge.printInfo();
+        for(Fridge fridge : items){
+            fridge.printInfo();
+        }
         System.out.println("-----");
     }
 }
