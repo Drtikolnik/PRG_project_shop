@@ -1,6 +1,13 @@
 package elektroshop;
 
+import autosaloon.Car;
+import autosaloon.Condition;
+
+import java.util.Scanner;
+
 public class Items {
+    static Scanner sc = new Scanner(System.in);
+
     private Fridge[] items;
 
 
@@ -9,10 +16,20 @@ public class Items {
      * @param count - pozadovany pocet lednicek
      */
     public void addItems(int count) {
-      //  items = new ....
-        for (int i=0; i<count; count++){
-            //nacti od uzivatele míru spotreby a rok výroby ledničky
-            //pridej lednicku do pole lednicek
+        items = new Fridge[count];
+        for (int i=0; i<count; i++){
+            System.out.println("Jaký je rok výroby ledničky?");
+            int rokVyroby = sc.nextInt();
+            sc.nextLine();
+            System.out.println("Jaká je značka ledničky?");
+            String znacka = sc.nextLine();
+            System.out.println("Jaký je model ledničky?");
+            String model = sc.nextLine();
+            System.out.println("Jaká je energetická náročnost ledničky? - (A, B, C, D, E, F, G)");
+            String narocnostString = sc.nextLine().toUpperCase();
+            Narocnost narocnost = Narocnost.valueOf(narocnostString);
+
+            items[i] = new Fridge(rokVyroby, narocnost, znacka, model);
         }
 
     }
@@ -25,7 +42,20 @@ public class Items {
      */
     public void printInfo(){
         System.out.println("-----INFO O LEDNICKACH-----");
-        //sem dopln kod
+        Fridge.printInfo();
         System.out.println("-----");
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

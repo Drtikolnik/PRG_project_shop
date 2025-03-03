@@ -30,8 +30,8 @@ public class CarDatabase {
             System.out.println("Jaká je brava auta?");
             String barva = sc.nextLine();
             System.out.println("Jaký je stav auta? - (EXCELLENT, GOOD, DAMAGED, BAD)");
-            String stav = sc.nextLine().toLowerCase();
-            Condition stavCondition = Condition.valueOf(stav);
+            String stavString = sc.nextLine().toLowerCase();
+            Condition stav = Condition.valueOf(stavString);
 
 
             cars[i] = new Car(rokVyroby, pocetKm, barva, stav);
@@ -52,15 +52,65 @@ public class CarDatabase {
         System.out.println("Dobra auta jsou");
         for (Car car : cars){
             switch(car.getStav()) {
-                case "good":
+                case Condition.good:
                     car.printInfo();
                     System.out.println();
                     break;
 
             }
         }
+    }
+
+    public void printCarWithMostPocetKm(){
+        System.out.println("Auto s nejvíce najetými km: ");
+        Car carWithMostPocetKm = null;
+        int nejvicPocetKm = 0;
+
+        for (Car car : cars){
+            if (car.getPocetKm() < nejvicPocetKm){
+                nejvicPocetKm = car.getPocetKm();
+                carWithMostPocetKm = car;
+            }
+        }
+
+        if (carWithMostPocetKm != null){
+            System.out.print("Barva:" + carWithMostPocetKm.getBarva());
+            System.out.print(" - Kilometry: " + carWithMostPocetKm.getPocetKm());
+        }else{
+            System.out.println("V databázi nejsou zadna auta.");
+        }
+    }
+
+    //dodělat úkol8 a dál - opravit cndition
+    public void printInterestingFacts(){
+        System.out.println("Zajimave fakty:");
+        System.out.println("Pocet aut: " + cars.length);
+        System.out.println("jméno vlastníka: " +owner);
+        System.out.println("délka jména vlastníka: " +owner.length());
+        System.out.println("První písmenko tohoto jmeéna: " +owner.charAt(0));
+
+        boolean hasDamagedCars = false;
+        for (Car car: cars){
+            if (car.getStav() == Condition.damaged){
+                hasDamagedCars = true;
+            }
+        }
+
+        if (hasDamagedCars) {
+            System.out.println("Nektere z aut je nabourane");
+        } else {
+            System.out.println("Vsechna auta jsou v poradku.");
+        }
 
 
     }
+
+
+
+
+
+
+
+
 }
 

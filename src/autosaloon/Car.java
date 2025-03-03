@@ -7,9 +7,9 @@ public class Car {
     private String rokVyroby;
     private int pocetKm;
     private String barva;
-    private String stav;
+    private Condition stav;
 
-    public Car(String rokVyroby, int pocetKm, String barva, String stav) {
+    public Car(String rokVyroby, int pocetKm, String barva, Condition stav) {
         this.rokVyroby = rokVyroby;
         this.pocetKm = pocetKm;
         this.barva = barva;
@@ -23,7 +23,7 @@ public class Car {
     public String getRokVyroby() {return rokVyroby;}
     public int getPocetKm() {return pocetKm;}
     public String getBarva() {return barva;}
-    public String getStav() {return stav;}
+    public Condition getStav() {return stav;}
 
 
 	

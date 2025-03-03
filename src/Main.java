@@ -26,6 +26,7 @@ public class Main {
                     sc.nextLine();
                     carDatabase.addCars(pocet);
                     carDatabase.printCarInGoodCondition();
+                    carDatabase.printCarWithMostPocetKm();
 
                 case "2":
                     BookStore knihkupectvi = new BookStore();
