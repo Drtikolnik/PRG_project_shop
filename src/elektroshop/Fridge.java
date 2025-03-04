@@ -24,6 +24,7 @@ public class Fridge {
     }
 
     //tato metoda se používá v Items v printInfo
+    //ve třídě Narocnost se narocnost zakládá!!!
     public void printInfo(){
         System.out.print(rokVyroby+ " : " );
         switch(narocnost){
@@ -37,13 +38,6 @@ public class Fridge {
             default -> System.out.println("n/a");
         }
     }
-
-
-
-
-
-
-
 
 
 
