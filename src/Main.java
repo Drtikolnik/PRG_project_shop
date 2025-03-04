@@ -47,6 +47,9 @@ public class Main {
                     pocet = sc.nextInt();
                     sc.nextLine();
                     items.addItems(pocet);
+                    items.printPocetPolozek();
+                    items.printZajimavosti();
+                    items.printNarcnostA();
                     items.printInfo();
                     break;
                 case "5":

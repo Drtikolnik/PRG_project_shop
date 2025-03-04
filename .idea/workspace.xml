@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5b30fa2e-674f-46b3-a621-eb8d46e0fc4b" name="Changes" comment="snad">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/elektroshop/Fridge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elektroshop/Fridge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/elektroshop/Items.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/elektroshop/Items.java" afterDir="false" />
     </list>
@@ -91,7 +92,8 @@
       <option name="presentableId" value="Default" />
       <updated>1740464549649</updated>
       <workItem from="1740464550744" duration="4825000" />
-      <workItem from="1740998448723" duration="5172000" />
+      <workItem from="1740998448723" duration="5492000" />
+      <workItem from="1741068711815" duration="2968000" />
     </task>
     <task id="LOCAL-00001" summary="snad">
       <option name="closed" value="true" />
@@ -117,7 +119,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741003480604</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="snad">
+      <option name="closed" value="true" />
+      <created>1741003747547</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1741003747547</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -1,8 +1,5 @@
 package elektroshop;
 
-import autosaloon.Car;
-import autosaloon.Condition;
-
 import java.util.Scanner;
 
 public class Items {
@@ -47,6 +44,61 @@ public class Items {
         }
         System.out.println("-----");
     }
+
+    public void printNarcnostA(){
+        System.out.println("Ledničky s náročností A jsou:");
+        for (Fridge fridge : items){
+            switch(fridge.getNarocnost()) {
+                case Narocnost.A ->
+                    fridge.printInfo();
+                default ->
+                    System.out.println("0");
+            }
+
+        }
+    }
+
+    public void printPocetPolozek(){
+        System.out.println("Počet položek:");
+        System.out.println(items.length);
+    }
+
+    public void printZajimavosti(){
+        int a = 0;
+        int b = 0;
+        int c = 0;
+        int d = 0;
+        int e = 0;
+        int f = 0;
+        int g = 0;
+        for (Fridge fridge : items){
+            switch(fridge.getNarocnost()) {
+                case Narocnost.A ->
+                        a++;
+                case Narocnost.B ->
+                        b++;
+                case Narocnost.C ->
+                    c++;
+                case Narocnost.D ->
+                    d++;
+                case Narocnost.E ->
+                    e++;
+                case Narocnost.F ->
+                    f++;
+                case Narocnost.G ->
+                    g++;
+            }
+        }
+        System.out.println("Počet ledniček v jednotlivých náročností");
+        System.out.println("A: " +a);
+        System.out.println("B: " +b);
+        System.out.println("C: " +c);
+        System.out.println("D: " +d);
+        System.out.println("E: " +e);
+        System.out.println("F: " +f);
+        System.out.println("G: " +g);
+    }
+
 }
 
 
