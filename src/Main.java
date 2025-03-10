@@ -29,9 +29,10 @@ public class Main {
                     carDatabase.printCarWithMostPocetKm();
 
                 case "2":
-                    BookStore knihkupectvi = new BookStore();
+                    BookStore knihkupectvi = new BookStore("U Lípy");
                     knihkupectvi.addBoooks();
                     knihkupectvi.printInfo();
+                    knihkupectvi.printPocetStranNejkratsi();
                     break;
                 case "3":
                     Film film = new Film();

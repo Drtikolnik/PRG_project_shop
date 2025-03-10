@@ -1,5 +1,4 @@
 package elektroshop;
-import autosaloon.Condition;
 
 import java.util.Scanner;
 
@@ -39,7 +38,7 @@ public class Fridge {
         }
     }
 
-
+//dd
 
 
 }
