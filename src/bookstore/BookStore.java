@@ -47,7 +47,7 @@ public class BookStore {
     public void printInfo(){
         System.out.println("-----INFO O KNIHKUPECTVI-----");
         System.out.println(name+ ".");
-        System.out.print("Na skladně máme tyto knihy:" );
+        System.out.print("Na skladně máme tyto knihy:");
         for(Book book : books){
             book.printInfo();
         }
