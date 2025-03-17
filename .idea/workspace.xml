@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b30fa2e-674f-46b3-a621-eb8d46e0fc4b" name="Changes" comment="snad">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bookstore/BookStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/bookstore/BookStore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/Library.java" afterDir="false" />
-    </list>
+    <list default="true" id="5b30fa2e-674f-46b3-a621-eb8d46e0fc4b" name="Changes" comment="hopefully" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -135,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741071815014</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="snad">
+      <option name="closed" value="true" />
+      <created>1742209668451</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1742209668451</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +146,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="snad" />
-    <option name="LAST_COMMIT_MESSAGE" value="snad" />
+    <MESSAGE value="hopefully" />
+    <option name="LAST_COMMIT_MESSAGE" value="hopefully" />
   </component>
 </project>
