@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5b30fa2e-674f-46b3-a621-eb8d46e0fc4b" name="Changes" comment="hopefully" />
+    <list default="true" id="5b30fa2e-674f-46b3-a621-eb8d46e0fc4b" name="Changes" comment="snad">
+      <change afterPath="$PROJECT_DIR$/src/library/Magazine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/IItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/IItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/Library.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,15 +145,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742209668451</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="snad">
+      <option name="closed" value="true" />
+      <created>1742210210432</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1742210210432</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="snad" />
     <MESSAGE value="hopefully" />
-    <option name="LAST_COMMIT_MESSAGE" value="hopefully" />
+    <MESSAGE value="snad" />
+    <option name="LAST_COMMIT_MESSAGE" value="snad" />
   </component>
 </project>
